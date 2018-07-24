@@ -3,13 +3,26 @@
 .navbar {
   font-family: 'Bree Serif', serif;
   background-color: #3AAFA9;
-  font-color: #FEFFFF;
 }
 
-.navbar-inverse a.navbar-brand {
-  font-family: 'Bree Serif', serif;
+.navbar-brand {
+  font-size: 28px;
   color: #FEFFFF;
-  
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 2px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin-bottom: 15px;
 }
 
 .hero {
